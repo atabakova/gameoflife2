@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#game-container {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+#controls {
+  margin-top: 10px;
+}
+
+canvas {
+  border: 1px solid #000;
+}
+
+#generation-counter {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+label {
+  margin-right: 5px;
+}
+/* Стили для ползунка */
+#slider-container {
+  margin-top: 10px;
+}
+
+#gridSizeSlider {
+  margin-right: 5px;
+}
+
+#slider-value {
+  font-weight: bold;
+  margin-right: 10px;
+}
